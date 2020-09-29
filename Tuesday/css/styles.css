@@ -1,0 +1,36 @@
+
+#container{
+    border: 2px solid black;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: lightgrey;
+}
+  .info{
+      font-size: 25px;
+  }
+  .btn {
+    border: 2px solid black;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    color: black;
+    padding: 7px 14px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #task{
+      padding: 8px;
+  }
+
+.taskItem{
+    padding: 5px;
+    margin-right: 20px;
+    border: 2px solid lightslategray;
+    background-color:lightskyblue;
+}
+
+.itemLabel{
+    margin:10px
+}
