@@ -1,0 +1,54 @@
+#container{
+    border: 3px solid black;
+    border-radius:15px;
+    background-color:lightcyan;
+}
+#introSection{
+    margin-left: 5px;
+}
+#menuSection {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 40px;
+  color:#5D6D7E;
+  max-width: 1000px;
+}
+.foodImage {
+  width: 100px;
+  height: 100px;
+}
+
+.foodDisplay {
+  display: flex;
+  margin: 20px;
+  font-family: "Helvetica", Sans-Serif;
+}
+.dropButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropDownContent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 280px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  /* z-index: 1; */
+}
+
+.dropdown:hover .dropDownContent {
+  display: block;
+}
+
+#introSection p{
+    font-size: 25px;
+}
