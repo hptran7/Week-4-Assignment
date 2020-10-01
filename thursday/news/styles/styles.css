@@ -1,0 +1,12 @@
+.newsImage{
+    width:100px;
+    height: 100px;
+}
+
+#newsBody{
+    display: flex;
+}
+
+img[src=" "] {
+    display: none;
+}
